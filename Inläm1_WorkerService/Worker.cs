@@ -48,7 +48,7 @@ namespace Inläm1_WorkerService
             {
                 try
                 {
-                     var response = await _client.GetAsync("http://api.openweathermap.org/data/2.5/weather?q=Kumla,se&APPID=340a1c7e1eb2c2fac4b365398b20c7e8");
+                     var response = await _client.GetAsync("http://api.openweathermap.org/data/2.5/weather?q=Kumla,se&APPID=");// Tog bort min nyckel från github
                     
 
                     if (response.IsSuccessStatusCode)
